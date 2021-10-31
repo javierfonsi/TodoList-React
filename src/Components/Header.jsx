@@ -5,10 +5,10 @@ import "../styles/Header.css"
 const Header = ({captureTodas, contar, contarComplete, enTotal}) =>{
   return (
     <header className="encabezado">
-      <h4 className="Logo">TodoList</h4>
+      <h4 className="Logo">Todolist</h4>
       <span>By Javier Fonseca</span>
       <div className="Buttons">
-        <button >Todas: {enTotal} </button>
+        <button onClick={()=>captureTodas('Muestra Todo')}>Todas: {enTotal} </button>
         <button onClick={()=>captureTodas(true)}>Completas: {contarComplete}  </button>
         <button onClick={()=>captureTodas(false)}>A completar: {contar} </button>
       </div>  
