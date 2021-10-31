@@ -1,0 +1,43 @@
+.todo-card {
+    width: 23%;
+    margin: 20px;
+    border: 2px solid rgb(32, 177, 44);
+    border-radius: 20px;
+    padding: 10px;
+    height: 125px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.15);
+    
+}
+
+.todo-card:hover{
+    transform: scale(1.06);
+    transition: 0,1s ease-in 0,2s;
+}
+
+.todo-title{
+    font-size: 1rem;
+    width: 100%;
+}
+
+.todo-actions{
+    width: 20%;
+}
+
+.todo-actions .reset{
+    color: #fff;
+    background-color: #d57eb8;
+    padding: 10px 15px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #d57e7e;
+    border-radius: 10px;
+}
+.todo-actions .complete{
+    color: #fff;
+    background-color: #45e030;
+    padding: 10px 15px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #c6d57e;
+    border-radius: 10px;
+}

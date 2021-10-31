@@ -1,0 +1,20 @@
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(214, 45, 163);
+    align-items: center;
+}
+
+header .Logo{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+
+header .Buttons{
+    width: 34%;
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;   
+}
+
